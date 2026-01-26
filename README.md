@@ -47,7 +47,14 @@ The goal was to build something **clean, fast, and production-ready**.
 - 🎨 Tailwind CSS
 - 🚀 Vercel Deployment
 
+
 ---
 
-## 📂 Project Structure
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Chetanmore4596/my-Portfolio.git
+
 
