@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #1a1a2e 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+  transform: translateZ(0);
+}
+
+/* Keep transitions minimal and fast */
+.transition-smooth {
+  transition: opacity 0.12s ease-out, transform 0.12s ease-out, color 0.12s ease-out, background-color 0.12s ease-out;
+  will-change: transform, opacity;
+}
+
+/* Make icons stable */
+.icon,
+svg,
+i,
+.lucide-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+  transform: translateZ(0); /* keep GPU accelerated */
+  will-change: auto;
+  transition: none; /* no scaling/animation unless explicitly added */
+  animation: none !important; /* remove float/glow animations on icons */
+}
+
+/* Keep icons same size (prevents jumpiness if text scales) */
+.icon,
+svg,
+i {
+  min-width: 1em;
+  min-height: 1em;
+}
+
+/* Buttons, inputs optimized */
+input, textarea, button {
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #2563eb, #7c3aed, #db2777);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.glass-strong {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Selection */
+::selection {
+  background: linear-gradient(45deg, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.3));
+  color: #ffffff;
+}
+
+/* Clamp */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes rainbow-border {
+  0% { border-color: #3b82f6; }
+  25% { border-color: #8b5cf6; }
+  50% { border-color: #ec4899; }
+  75% { border-color: #10b981; }
+  100% { border-color: #3b82f6; }
+}
+
+@keyframes text-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Animations (no icons affected) */
+.animate-float {
+  animation: float 1s ease-in-out infinite;
+  will-change: transform;
+}
+.animate-rainbow-border {
+  animation: rainbow-border 1s linear infinite;
+}
+.animate-text-shimmer {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #10b981, #3b82f6);
+  background-size: 400% 400%;
+  animation: text-shimmer 1s ease-in-out infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  will-change: background-position;
+}
+
+/* Hover effects (no icons scale) */
+.hover-3d:hover {
+  transform: rotateY(3deg) rotateX(3deg) scale(1.03);
+  transition: transform 0.1s ease-out;
+}
+
+/* Loading dots faster */
+.loading-dots div {
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.loading-dots div:nth-child(1) { animation: loading-dots1 0.3s infinite; }
+.loading-dots div:nth-child(2) { animation: loading-dots2 0.3s infinite; }
+.loading-dots div:nth-child(3) { animation: loading-dots2 0.3s infinite; }
+.loading-dots div:nth-child(4) { animation: loading-dots3 0.3s infinite; }
+
+@keyframes loading-dots1 { 0% { transform: scale(0); } 100% { transform: scale(1); } }
+@keyframes loading-dots3 { 0% { transform: scale(1); } 100% { transform: scale(0); } }
+@keyframes loading-dots2 { 0% { transform: translate(0, 0); } 100% { transform: translate(20px, 0); } }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
