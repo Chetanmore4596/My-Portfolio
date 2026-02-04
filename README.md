@@ -9,7 +9,7 @@
     🌐 Live Demo
   </a>
   •
-  <a href="https://www.linkedin.com/in/chetan-more-b489b02a8" target="_blank">
+  <a href="https://www.linkedin.com/in/chetan-more-4596" target="_blank">
     💼 LinkedIn
   </a>
   •
