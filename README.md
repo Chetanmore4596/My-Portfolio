@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://my-portfolio-ten-kappa-68.vercel.app/" target="_blank">
+  <a href="https://chetanmore.vercel.app/" target="_blank">
     🌐 Live Demo
   </a>
   •
