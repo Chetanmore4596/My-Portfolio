@@ -438,22 +438,24 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-                <p>
-                  I&apos;m a passionate developer with a love for creating beautiful, functional web experiences. 
-                  My journey in web development started with curiosity and has evolved into a dedication to crafting 
-                  digital solutions that make a difference.
-                </p>
-                <p>
-                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source projects, 
-                  or learning about the latest trends in web development. I believe in continuous learning and pushing 
-                  the boundaries of what&apos;s possible on the web.
-                </p>
-                <p>
-                  My goal is to bridge the gap between design and development, creating seamless user experiences 
-                  that are both visually stunning and highly functional.
-                </p>
-              </div>
+            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <p>
+                I&apos;m a passionate Computer Engineering student with a strong interest in building 
+                scalable and user-friendly web applications. My journey into web development began 
+                with curiosity and has grown into a dedication to creating practical digital solutions 
+                that solve real-world problems.
+              </p>
+              <p>
+                I enjoy working with technologies like React.js, JavaScript, PHP, SQL, and the MERN stack 
+                to develop responsive and efficient full-stack applications. When I&apos;m not coding, 
+                I&apos;m exploring new technologies, strengthening my problem-solving skills, and staying 
+                updated with the latest trends in web development.
+              </p>
+              <p>
+                My goal is to bridge the gap between design and development by creating seamless user 
+                experiences that are both visually appealing and technically robust.
+              </p>
+            </div>
             </motion.div>
             
             <motion.div
