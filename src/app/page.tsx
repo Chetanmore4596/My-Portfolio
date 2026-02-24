@@ -604,7 +604,7 @@ export default function Home() {
                         viewport={{ once: true }}
                         whileHover={{ scale: 1.1, y: -2 }}
                       >
-                        CGPA : 8/10
+                        CGPA : 8.43/10
                       </motion.span>
 
                     ))}
