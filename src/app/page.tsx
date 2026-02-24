@@ -446,7 +446,7 @@ export default function Home() {
                 that solve real-world problems.
               </p>
               <p>
-                I enjoy working with technologies like React.js, JavaScript, PHP, SQL, and the MERN stack 
+                I enjoy working with technologies like React.js, JavaScript, Java, Python, SQL, and the MERN stack 
                 to develop responsive and efficient full-stack applications. When I&apos;m not coding, 
                 I&apos;m exploring new technologies, strengthening my problem-solving skills, and staying 
                 updated with the latest trends in web development.
