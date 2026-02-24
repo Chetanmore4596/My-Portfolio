@@ -1361,6 +1361,20 @@ export default function Home() {
                 tech: ["HTML", "CSS", "Bootstrap", "PHP", "SQL"],
                 githubLink: "https://github.com/Chetanmore4596/DeptXPert"
               },
+                { 
+                title: "Product-Review-Analysis", 
+                description: "Full-stack app to upload datasets and generate sentiment-focused analytics with interactive charts.", 
+                image: "/Product_Review_Analysis.png",
+                tech: ["React", "Vite Node.js", "Python", "Pandas"],
+                githubLink: "https://github.com/Chetanmore4596/Product-Review-Analysis"
+              },
+              { 
+                title: "Movie recomndetion", 
+                description: "Full-stack app to upload movie datasets and generate top-rated movie recommendations.", 
+                image: "/Movie_recomndetion.png",
+                tech: ["React", "Vite Node.js", "Python", "scikit-learn"],
+                githubLink: "https://github.com/Chetanmore4596/Movie-recomndetion"
+              },
               { 
                 title: "To Do APP", 
                 description: "A simple Todo App built with React and Tailwind CSS. It allows you to add, mark complete/incomplete, delete tasks, and your tasks are saved locally.", 
@@ -1370,26 +1384,12 @@ export default function Home() {
                 featured: true
               },
               { 
-                title: "Todo App", 
+                title: "CryptoPlace", 
                 description: "CryptoPlace help's to explore real-time cryptocurrency market data. It provides a clean interface to track prices.", 
                 image: "/cryptoplace.png",
                 tech: ["React", "TypeScript"],
                 githubLink: "https://github.com/Chetanmore4596/cryptoplace",
                 featured: true
-              },
-              { 
-                title: "IRC Server", 
-                description: "An Internet Relay Chat server and client implemented in C++, supporting multiple users and channels.", 
-                image: "/ft_irc.jpg",
-                tech: ["C++", "Socket Programming", "Multi-threading"],
-                githubLink: "https://github.com/ahallali/ft_irc"
-              },
-              { 
-                title: "Cub3D", 
-                description: "A raycasting-based 3D game inspired by Wolfenstein 3D, built in C using the MinilibX library.", 
-                image: "/Cub3D.png",
-                tech: ["C", "MinilibX", "Raycasting"],
-                githubLink: "https://github.com/ahallali/cub3d"
               },
               { 
                 title: "Minishell", 
