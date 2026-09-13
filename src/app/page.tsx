@@ -1361,25 +1361,19 @@ export default function Home() {
                 tech: ["HTML", "CSS", "Bootstrap", "PHP", "SQL"],
                 githubLink: "https://github.com/Chetanmore4596/DeptXPert"
               },
-                { 
-                title: "Product-Review-Analysis", 
-                description: "Full-stack app to upload datasets and generate sentiment-focused analytics with interactive charts.", 
-                image: "/Product_Review_Analysis.png",
-                tech: ["React", "Vite Node.js", "Python", "Pandas"],
-                githubLink: "https://github.com/Chetanmore4596/Product-Review-Analysis"
-              },
               { 
-                title: "Movie recomndetion", 
-                description: "Full-stack app to upload movie datasets and generate top-rated movie recommendations.", 
-                image: "/Movie_recomndetion.png",
-                tech: ["React", "Vite Node.js", "Python", "scikit-learn"],
-                githubLink: "https://github.com/Chetanmore4596/Movie-recomndetion"
+                title: "Zerodha clone", 
+                description: "A full-stack Zerodha clone that replicates the core functionality of India's leading stock trading platform. The project features a responsive React-based frontend, a Node.js and Express backend, secure user authentication, portfolio and holdings management, order placement, fund tracking, and interactive charts.", 
+                image: "/Zerodhaclone.png",
+                tech: ["React", "CSS", "HTML", "Material UI", "Chart.js", "Express.js", "MongoDB", "JWT],
+                githubLink: "https://github.com/Chetanmore4596/Zerodha-Clone",
+                featured: true
               },
               { 
                 title: "To Do APP", 
                 description: "A simple Todo App built with React and Tailwind CSS. It allows you to add, mark complete/incomplete, delete tasks, and your tasks are saved locally.", 
                 image: "/TODO-APP.png",
-                tech: ["React.js", "TailwindCSS"],
+                tech: ["React.js", "TailwindCSS", "HTML", "JavaScript"],
                 githubLink: "https://github.com/Chetanmore4596/TODO-APP",
                 featured: true
               },
@@ -1387,7 +1381,7 @@ export default function Home() {
                 title: "CryptoPlace", 
                 description: "CryptoPlace help's to explore real-time cryptocurrency market data. It provides a clean interface to track prices.", 
                 image: "/cryptoplace.png",
-                tech: ["React", "TypeScript"],
+                tech: ["React", "TypeScript", "React Hooks", "CoinGecko API"],
                 githubLink: "https://github.com/Chetanmore4596/cryptoplace",
                 featured: true
               },
