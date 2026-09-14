@@ -448,18 +448,23 @@ export default function Home() {
             
               <p>
                 I have hands-on experience in Full Stack Development and enjoy working with
-                Java, Spring Framework, Spring Boot, Spring MVC, React.js, Node.js,
-                Express.js, MongoDB, SQL, and REST APIs. I&apos;m also exploring AI and
-                LLM-powered applications, with a focus on integrating AI capabilities into
-                practical software products.
+                Java, Spring Framework, Spring Boot, React.js, Node.js, 
+                Express.js, MongoDB, SQL, and REST APIs. I have experience building
+                applications using the MERN stack and am also familiar with software testing
+                using Selenium.
               </p>
             
               <p>
-                Beyond building projects, I actively strengthen my problem-solving skills
-                through Data Structures and Algorithms and continue learning core Computer
-                Science concepts such as DBMS, Operating Systems, and Computer Networks. My
-                goal is to grow as a Software Engineer and build reliable, impactful
-                products that make a meaningful difference.
+                I&apos;m also exploring AI and LLM-powered applications, with a focus on
+                integrating AI capabilities into practical software products. Beyond
+                building projects, I actively strengthen my problem-solving skills through
+                Data Structures and Algorithms and continue learning core Computer Science
+                concepts such as DBMS, Operating Systems, and Computer Networks.
+              </p>
+            
+              <p>
+                My goal is to grow as a Software Engineer and build reliable, scalable, and
+                impactful products while continuously learning and improving.
               </p>
             </div>
             </motion.div>
