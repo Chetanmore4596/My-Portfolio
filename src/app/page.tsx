@@ -440,20 +440,26 @@ export default function Home() {
             >
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                I&apos;m a passionate Computer Engineering student with a strong interest in building 
-                scalable and user-friendly web applications. My journey into web development began 
-                with curiosity and has grown into a dedication to creating practical digital solutions 
-                that solve real-world problems.
+                I&apos;m a Computer Engineering student at MMIT Pune passionate about
+                building scalable software and solving real-world problems through
+                technology. I enjoy creating modern, user-focused applications that combine
+                strong engineering with practical solutions.
               </p>
+            
               <p>
-                I enjoy working with technologies like React.js, JavaScript, Java, Python, SQL, and the MERN stack 
-                to develop responsive and efficient full-stack applications. When I&apos;m not coding, 
-                I&apos;m exploring new technologies, strengthening my problem-solving skills, and staying 
-                updated with the latest trends in web development.
+                I have hands-on experience in Full Stack Development and enjoy working with
+                Java, Spring Framework, Spring Boot, Spring MVC, React.js, Node.js,
+                Express.js, MongoDB, SQL, and REST APIs. I&apos;m also exploring AI and
+                LLM-powered applications, with a focus on integrating AI capabilities into
+                practical software products.
               </p>
+            
               <p>
-                My goal is to bridge the gap between design and development by creating seamless user 
-                experiences that are both visually appealing and technically robust.
+                Beyond building projects, I actively strengthen my problem-solving skills
+                through Data Structures and Algorithms and continue learning core Computer
+                Science concepts such as DBMS, Operating Systems, and Computer Networks. My
+                goal is to grow as a Software Engineer and build reliable, impactful
+                products that make a meaningful difference.
               </p>
             </div>
             </motion.div>
